@@ -76,7 +76,7 @@ print(type(m))
 # --- 3.2 Booleans ---
 print(10 > 9) # True, 10 is greater than 9
 print(10 == 9) # False, 10 is not equal to 9
-print(10 <== 9) # False, 10 is not equal or less than 9
+print(10 <= 9) # False, 10 is not equal or less than 9
 print(bool("abc")) # True, a non-empty string is present
 print(bool(123)) # True, a non-zero integer is present
 print(bool(["apple", "cherry", "banana"])) # True, a non-empty list is present
@@ -157,4 +157,81 @@ name = "Oski"
 print("Hello, my name is", name) # Prints: Hello, my name is Oski
 name = "Oski"
 print(f"Hello, my name is {name}") # Prints: Hello, my name is Oski
+
+# 4. f-string is a way to put variables directly into a string
+
+# ---Terminal Commands---
+# cd
+# Change directories. Use it to move from one folder to another
+# Example: cd Desktop
+
+# ls
+# List. Use it to see the contents of a directory
+# Example: ls
+
+# ls -a
+# list all. Use it to see all contents of a directory
+# Example: ls -a
+
+# mkdir
+# Make directory. Use it to create a new directory
+# Example: mkdir new_folder
+
+# cat
+# Concatenate. Use it to view the contents of a file
+# Example: cat file.txt
+
+# pwd
+# Print working directory. Use it to see the current directory you are in
+# Example: pwd
+
+# cd ..
+# Change directory up one level. Use it to move up one level in the directory structure
+# Example: cd ..
+
+# cd .
+# Change directory to the current directory. Use it to stay in the current directory
+# Example: cd .
+
+# cd ~
+# Change directory to the home directory. Use it to move to the home directory
+# Example: cd ~
+
+# cp   
+# Copy. Use it to copy files or directories
+# Example: cp file.txt new_file.txt
+
+# mv
+# Move. Use it to move files or directories
+# Example: mv file.txt new_folder/
+
+# rm
+# Remove. Use it to delete files or directories
+# Example: rm file.txt
+
+# clear
+# Clear the terminal screen. Use it to clear the terminal screen
+# Example: clear
+
+# grep  
+# Global regular expression print. Use it to search for a specific pattern in a file
+# Example: grep "pattern" file.txt
+
+# Questions:
+# 1.
+# python3
+# Use it to run Python 3 scripts
+# touch
+# Create a new file. Use it to create a new file
+# head
+# View the first few lines of a file. Use it to see the beginning of a file
+
+# 2. ls shows the contents of the current directory, while ls -a shows all content from the current directory
+
+# 3. A hidden file is a file that is not normally visible when listing the contents of a directory. Hidden files are typically used to store configuration settings or other data that should not be modified by the user. In Unix-like operating systems, hidden files are usually prefixed with a dot (.) in their filename.
+
+# 4. 
+# ls -l: shows files in a detailed format with permissions
+# ls -h: shows file sizes in a human-readable format
+# ls -R: shows files in the current directory and all subdirectories recursively
 
